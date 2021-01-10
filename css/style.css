@@ -1,0 +1,99 @@
+@charset "utf-8";
+body {
+	background-color: rgba(5,5,5,1.00);
+}
+.row .col-lg-12 .navbar.navbar-default.navbar-fixed-top.col-lg-offset-0.col-lg-12 {
+	background-color: rgba(0,0,0,0.70);
+}
+
+body {
+  margin: 0;
+  background: #000; 
+}
+video { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+  background-size: cover;
+  transition: 1s opacity;
+}
+.stopfade { 
+   opacity: .5;
+}
+
+#sky { 
+  font-family: Agenda-Light, Agenda Light, Agenda, Arial Narrow, sans-serif;
+  font-weight:100; 
+  background: rgba(0,0,0,0.3);
+  color: white;
+  padding: 2rem;
+  width: 33%;
+  margin:2rem;
+  float: right;
+  font-size: 1.2rem;
+}
+h1 {
+  font-size: 3rem;
+  text-transform: uppercase;
+  margin-top: 0;
+  letter-spacing: .3rem;
+  color:white;
+}
+.content a {
+  text-decoration: none;
+}
+.content a:hover{
+  text-decoration:none;
+}
+p{
+	color:white;
+}
+.content .row .col-lg-3 {
+	padding: 10px;
+	background-color: rgba(0,0,0,0.30);
+	margin-left: 10px;
+}
+#h1Space    {
+	margin-top: 10%;
+
+}
+
+.content .row .col-lg-offset-1.col-lg-6 {
+	padding: 10px;
+	background-color: rgba(0,0,0,0.30);
+	
+}
+
+footer .row .col-lg-12 {
+	background-color: rgba(0,0,0,0.70);
+	padding-top: 10px;
+	margin-top: 10px;
+}
+.row .col-lg-12 p {
+	text-align: center;
+}
+.row .col-lg-3 .fa.fa-facebook-square {
+	margin-right: 10px;
+}
+.row .col-lg-3 .fa.fa-instagram {
+	margin-right: 10px;
+}
+.h1Space {
+	margin-top: 10%;
+}
+.container-fluid .navbar-header .navbar-brand {
+	color: rgba(255,255,255,1.00);
+}
+.nav.navbar-nav li a {
+	color: rgba(255,255,255,1.00);
+}
+.nav.navbar-nav li a:hover {
+	background-color: rgba(255,255,255,1.00);
+	color: rgba(0,0,0,1.00);
+}
